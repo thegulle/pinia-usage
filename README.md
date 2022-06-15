@@ -2,13 +2,6 @@
 # Author : github.com/thegulle
 
 ## Installation
-```bash
-yarn install
-# or with npm
-npm install
-```
-
-## Installation
 
 ```bash
 yarn install
