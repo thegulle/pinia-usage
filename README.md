@@ -3,9 +3,9 @@
 
 ## Installation
 ```bash
-yarn add pinia
+yarn install
 # or with npm
-npm install pinia
+npm install
 ```
 
 ## Installation
