@@ -3,11 +3,16 @@ import { defineStore } from "pinia";
 
 export const useCartStore = defineStore("CartStore", () => {
     const cart = ref([]);
-    async function addToCart(product) {
-        await cart.value.push(product);
+
+    function addToCart({ product, quantity }) {
+        this.$patch((state) => {
+            for (let i = 0; i < quantity; i++) {
+                cart.value.push(product);
+            }
+        })
         alert('Product added to cart')
-        //console.log(cart.value, 'added to cart')
     }
+
     return {
         cart,
         addToCart

@@ -6,11 +6,8 @@
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
             <div class="text-sm lg:flex-grow">
             </div>
-            <div>
-                <a href="#"
-                    class="text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">
-                    <ShoppingCart :cart="cart" />
-                </a>
+            <div class="bg-indigo-500 p-3 rounded-md">
+                <ShoppingCart :cart="cart" />
             </div>
         </div>
     </nav>
