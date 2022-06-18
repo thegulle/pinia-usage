@@ -2,13 +2,6 @@
 # Author : github.com/thegulle
 
 ## Installation
-```bash
-yarn add pinia
-# or with npm
-npm install pinia
-```
-
-## Installation
 
 ```bash
 yarn install
